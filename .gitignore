@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Local databases and monitoring state
+security_events.db
+fim_hash.json
+s3_baseline.json
+s3_alert_state.json
+
+# Local test files
+fim_test_file.txt
